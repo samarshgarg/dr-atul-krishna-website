@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact & Book Appointment – Dr. Atul Krishna</title>
+  <meta name="description" content="Book an appointment with Dr. Atul Krishna, Pediatrician & Neonatologist. Contact us at +91 96548 71006 or visit ABVIMS & Dr. RML Hospital, New Delhi." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <i class="fas fa-stethoscope"></i>
+        <span>Dr. Atul Krishna</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="contact.html" class="btn btn-primary">Book Appointment</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <i class="fas fa-chevron-right"></i>
+        <span>Contact</span>
+      </div>
+      <h1>Get in Touch</h1>
+      <p>Book an appointment, ask a question, or find us at ABVIMS & Dr. RML Hospital, New Delhi. We're here for your child.</p>
+    </div>
+  </section>
+
+  <!-- Contact Main -->
+  <section class="contact-main">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Contact Info -->
+        <div data-aos="fade-right">
+          <h3>Contact Information</h3>
+          <p>Reach out through any of the channels below or fill out the appointment form. Dr. Atul Krishna's team will get back to you promptly.</p>
+
+          <div class="contact-card" data-aos="fade-up" data-aos-delay="0">
+            <div class="contact-card-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <h4>Phone / WhatsApp</h4>
+              <a href="tel:+919654871006">+91 96548 71006</a>
+            </div>
+          </div>
+
+          <div class="contact-card" data-aos="fade-up" data-aos-delay="80">
+            <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <h4>Email Address</h4>
+              <a href="mailto:krishdoctor15@gmail.com">krishdoctor15@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-card" data-aos="fade-up" data-aos-delay="160">
+            <div class="contact-card-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <h4>Hospital Address</h4>
+              <p>ABVIMS & Dr. Ram Manohar Lohia Hospital<br>New Delhi – 110001</p>
+            </div>
+          </div>
+
+          <!-- Hours -->
+          <div class="hours-table" data-aos="fade-up" data-aos-delay="200">
+            <h4><i class="fas fa-clock" style="color: var(--primary); margin-right: 8px;"></i> Consultation Hours</h4>
+            <div class="hours-row">
+              <span class="day">Monday – Friday</span>
+              <span class="time">9:00 AM – 7:00 PM</span>
+            </div>
+            <div class="hours-row">
+              <span class="day">Saturday</span>
+              <span class="time">9:00 AM – 2:00 PM</span>
+            </div>
+            <div class="hours-row">
+              <span class="day">Sunday</span>
+              <span class="closed">Closed (Emergencies Only)</span>
+            </div>
+            <div class="hours-row" style="background: var(--orange-light); border-radius: var(--radius-sm); padding: 10px 14px; margin-top: 8px; border: none;">
+              <span class="day" style="color: var(--orange-dark); font-weight: 600;"><i class="fas fa-triangle-exclamation"></i> Emergencies</span>
+              <span class="time" style="color: var(--orange-dark);">24 × 7 via Hospital</span>
+            </div>
+          </div>
+
+          <!-- Quick Actions -->
+          <div style="margin-top: 32px; display: flex; flex-direction: column; gap: 14px;" data-aos="fade-up">
+            <a href="tel:+919654871006" class="btn btn-primary btn-lg" style="justify-content: center;">
+              <i class="fas fa-phone"></i> Call for Appointment
+            </a>
+            <a href="https://wa.me/919654871006?text=Hello%20Dr.%20Atul%2C%20I%20would%20like%20to%20book%20an%20appointment." class="btn btn-outline btn-lg" style="justify-content: center;" target="_blank" rel="noopener">
+              <i class="fab fa-whatsapp" style="color: #25D366;"></i> Chat on WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <!-- Appointment Form -->
+        <div data-aos="fade-left">
+          <div class="contact-form-card">
+            <h3>Book an Appointment</h3>
+            <p>Fill in the details below and we'll confirm your appointment within 24 hours.</p>
+
+            <form id="contactForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="parentName">Parent / Guardian Name *</label>
+                  <input type="text" id="parentName" placeholder="Your full name" required />
+                </div>
+                <div class="form-group">
+                  <label for="childName">Child's Name *</label>
+                  <input type="text" id="childName" placeholder="Child's name" required />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="phone">Phone Number *</label>
+                  <input type="tel" id="phone" placeholder="+91 XXXXX XXXXX" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" placeholder="your@email.com" />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="childAge">Child's Age *</label>
+                  <select id="childAge" required>
+                    <option value="">Select age group</option>
+                    <option>Newborn (0–1 month)</option>
+                    <option>Infant (1–12 months)</option>
+                    <option>Toddler (1–3 years)</option>
+                    <option>Preschool (3–5 years)</option>
+                    <option>School-age (6–12 years)</option>
+                    <option>Adolescent (13–18 years)</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="service">Service Required *</label>
+                  <select id="service" required>
+                    <option value="">Select service</option>
+                    <option>General Consultation</option>
+                    <option>Neonatal / NICU Care</option>
+                    <option>Vaccination</option>
+                    <option>Growth & Development</option>
+                    <option>Emergency Care</option>
+                    <option>PICU Admission</option>
+                    <option>Specialist Procedure</option>
+                    <option>Follow-up Visit</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="preferredDate">Preferred Date</label>
+                <input type="date" id="preferredDate" min="" />
+              </div>
+              <div class="form-group">
+                <label for="message">Brief Description of Concern</label>
+                <textarea id="message" placeholder="Please describe your child's symptoms or reason for visit..."></textarea>
+              </div>
+              <button type="submit" class="form-submit">
+                <i class="fas fa-calendar-check"></i> Confirm Appointment Request
+              </button>
+            </form>
+
+            <div class="form-success" id="formSuccess">
+              <i class="fas fa-circle-check"></i>
+              <h4>Appointment Request Received!</h4>
+              <p>Thank you! We'll confirm your appointment with Dr. Atul Krishna within 24 hours. For urgent queries, please call <strong>+91 96548 71006</strong>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <section style="padding: 0 0 80px; background: var(--white);">
+    <div class="container">
+      <div data-aos="fade-up" style="margin-bottom: 32px; text-align: center;">
+        <span class="section-label"><i class="fas fa-map"></i> Find Us</span>
+        <h2 class="section-title">How to <span>Reach Us</span></h2>
+        <p class="section-subtitle centered">ABVIMS & Dr. Ram Manohar Lohia Hospital is located centrally in New Delhi and is easily accessible by metro and road.</p>
+      </div>
+      <div data-aos="zoom-in" style="border-radius: var(--radius-xl); overflow: hidden; box-shadow: var(--shadow-lg); border: 1px solid var(--border);">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.3066!2d77.2085!3d28.6330!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b37f7e8e5%3A0x9b0c3a08b3d5b5e3!2sDr.%20Ram%20Manohar%20Lohia%20Hospital!5e0!3m2!1sen!2sin!4v1"
+          width="100%" height="420" style="border:0; display:block;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade" title="Dr. RML Hospital Location">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- References Section -->
+  <section style="padding: 64px 0; background: var(--bg);">
+    <div class="container">
+      <div class="text-center" data-aos="fade-up" style="margin-bottom: 40px;">
+        <span class="section-label"><i class="fas fa-users"></i> References</span>
+        <h2 class="section-title">Professional <span>References</span></h2>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;">
+        <div style="background: var(--white); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 28px; text-align: center;" data-aos="fade-up" data-aos-delay="0">
+          <div style="width: 64px; height: 64px; background: var(--primary-lighter); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; font-size: 1.8rem; color: var(--primary);">
+            <i class="fas fa-user-md"></i>
+          </div>
+          <h4 style="font-size: 1rem; font-weight: 700; color: var(--dark); margin-bottom: 4px;">Dr. T.P. Yadav</h4>
+          <p style="font-size: .82rem; color: var(--primary); font-weight: 600; margin-bottom: 6px;">Ex. Professor, Pediatrics</p>
+          <p style="font-size: .82rem; color: var(--medium);">Dr. RML Hospital, New Delhi</p>
+        </div>
+        <div style="background: var(--white); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 28px; text-align: center;" data-aos="fade-up" data-aos-delay="80">
+          <div style="width: 64px; height: 64px; background: var(--orange-light); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; font-size: 1.8rem; color: var(--orange);">
+            <i class="fas fa-user-md"></i>
+          </div>
+          <h4 style="font-size: 1rem; font-weight: 700; color: var(--dark); margin-bottom: 4px;">Dr. Dheeraj Bahl</h4>
+          <p style="font-size: .82rem; color: var(--orange); font-weight: 600; margin-bottom: 6px;">Professor & HOD, Pediatrics</p>
+          <p style="font-size: .82rem; color: var(--medium);">Dr. RML Hospital, New Delhi</p>
+        </div>
+        <div style="background: var(--white); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 28px; text-align: center;" data-aos="fade-up" data-aos-delay="160">
+          <div style="width: 64px; height: 64px; background: var(--green-light); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; font-size: 1.8rem; color: var(--green);">
+            <i class="fas fa-user-md"></i>
+          </div>
+          <h4 style="font-size: 1rem; font-weight: 700; color: var(--dark); margin-bottom: 4px;">Dr. Bhawna Dubey</h4>
+          <p style="font-size: .82rem; color: var(--green); font-weight: 600; margin-bottom: 6px;">Professor, Neonatology</p>
+          <p style="font-size: .82rem; color: var(--medium);">Dr. RML Hospital, New Delhi</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-inner">
+        <div class="cta-text">
+          <h2>Don't Wait – Your Child Deserves the Best</h2>
+          <p>Reach out today and take the first step towards your child's healthier, happier life.</p>
+        </div>
+        <div class="cta-actions">
+          <a href="tel:+919654871006" class="btn btn-white btn-lg"><i class="fas fa-phone"></i> Call Now</a>
+          <a href="mailto:krishdoctor15@gmail.com" class="btn btn-outline-cta btn-lg"><i class="fas fa-envelope"></i> Email Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo"><i class="fas fa-stethoscope"></i> Dr. Atul Krishna</a>
+          <p>MBBS, MD Paediatrics. Dedicated to providing compassionate and expert medical care for newborns and children at ABVIMS & Dr. RML Hospital, New Delhi.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-btn" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-btn" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="mailto:krishdoctor15@gmail.com" class="social-btn" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+            <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Dr. Atul</a></li>
+            <li><a href="services.html"><i class="fas fa-chevron-right"></i> Our Services</a></li>
+            <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html"><i class="fas fa-chevron-right"></i> Neonatal Care</a></li>
+            <li><a href="services.html"><i class="fas fa-chevron-right"></i> Vaccination</a></li>
+            <li><a href="services.html"><i class="fas fa-chevron-right"></i> PICU Care</a></li>
+            <li><a href="services.html"><i class="fas fa-chevron-right"></i> Emergency Care</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <div class="footer-contact-list">
+            <div class="footer-contact-item"><i class="fas fa-map-marker-alt"></i><span>ABVIMS & Dr. RML Hospital, New Delhi</span></div>
+            <div class="footer-contact-item"><i class="fas fa-phone"></i><a href="tel:+919654871006">+91 96548 71006</a></div>
+            <div class="footer-contact-item"><i class="fas fa-envelope"></i><a href="mailto:krishdoctor15@gmail.com">krishdoctor15@gmail.com</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 Dr. Atul Krishna. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    // Set minimum date for appointment to today
+    const dateInput = document.getElementById('preferredDate');
+    if (dateInput) {
+      const today = new Date().toISOString().split('T')[0];
+      dateInput.setAttribute('min', today);
+    }
+  </script>
+</body>
+</html>
